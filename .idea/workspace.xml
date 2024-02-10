@@ -1,36 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="ChangeListManager">
+    <list default="true" id="2ae8e0e9-ad57-4150-93ab-280d88d0f8b0" name="Changes" comment="update project&#10;&#10;- add article blocs&#10;- add pages">
+      <change afterPath="$PROJECT_DIR$/.idea/Flutter-clean-architercture.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config/routes/routes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config/theme/app_themes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/constants/constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/resources/data_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/usecase/usecase.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/util/global_bloc_observer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/data/data_sources/local/DAO/article_dao.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/data/data_sources/local/app_database.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/data/data_sources/local/app_database.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/data/data_sources/remote/news_api_service.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/data/data_sources/remote/news_api_service.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/data/models/article.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/data/repository/article_repository_impl.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/domain/entities/article.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/domain/repository/article_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/domain/usecases/get_article.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/domain/usecases/get_saved_article.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/domain/usecases/remove_article.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/domain/usecases/save_article.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/presentation/bloc/article/local/local_article_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/presentation/bloc/article/local/local_article_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/presentation/bloc/article/local/local_article_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/presentation/bloc/article/remote/remote_article_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/presentation/bloc/article/remote/remote_article_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/presentation/bloc/article/remote/remote_article_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/presentation/pages/article_detail/article_detail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/presentation/pages/home/daily_news.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/presentation/pages/saved_article/saved_article.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/daily_news/presentation/widgets/article_tile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/injection_container.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dart.analysis.tool.window.force.activate" value="true" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2c7bcjIKoq9INynMJ7ndvCmvVuF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "/Users/vargagabor/Development/Flutter-clean-architercture/lib/features/daily_news/presentation/bloc/article/remote",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/features/daily_news/presentation/bloc/article/remote" />
+      <recent name="$PROJECT_DIR$/assets/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/core/constants" />
+      <recent name="$PROJECT_DIR$/lib/features/auth" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ae8e0e9-ad57-4150-93ab-280d88d0f8b0" name="Changes" comment="" />
+      <created>1707465646009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707465646009</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1707465782132</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707465782132</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="update project&#10;&#10;- add article blocs&#10;- add pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project&#10;&#10;- add article blocs&#10;- add pages" />
   </component>
 </project>
